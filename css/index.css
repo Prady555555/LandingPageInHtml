@@ -1,0 +1,594 @@
+@import url("https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.volkhov-regular {
+  font-family: "Volkhov", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.volkhov-bold {
+  font-family: "Volkhov", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+.Primary-color {
+  color: #fd8d3a;
+}
+.primary-2-Color {
+  color: #222222;
+}
+.nav-Text-Container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+body {
+  margin: 0;
+}
+.nav-Home-Container {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.nav-btn-Container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.nav-Logo {
+  color: #222222;
+  font-size: 24px;
+}
+.nav-Login-btn {
+  color: #fa7436;
+  background: none;
+  border: none;
+}
+.nav-signup-btn {
+  border: none;
+  background-color: #fa7436;
+  color: #ffffff;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.HEader-Containe {
+  background: #fefcfb;
+}
+.HeaderNavHomeBTn {
+  font-size: 16px;
+  color: #222222;
+}
+.Header-Sub-Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  gap: 5%;
+  flex-wrap: wrap;
+  margin-top: 4%;
+}
+.Header-MainText {
+  font-size: 64px;
+}
+.Header-SubText {
+  line-height: 2;
+  margin-top: 4%;
+  font-size: larger;
+}
+.Header-MainImg {
+  width: 600px;
+  height: 500px;
+}
+.Header-DiscoverBtn {
+  margin-top: 2%;
+}
+.Header-DiscoverBtn {
+  margin-top: 7%;
+  background-color: transparent;
+  color: #fa7436;
+  border: 2px solid #fa7436;
+  padding: 10px 20px;
+}
+.ExploreNowBox-SubContainer {
+  display: flex;
+  gap: 4%;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+.ExploreNow-FirstTextIcon {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.ExploreNowBox-Container {
+  width: 841px;
+  height: 124px;
+  flex-wrap: wrap;
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+.ExploreNow-Box {
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+}
+.ExploreNow-FirstIcon {
+  width: 10px;
+  height: 7px;
+}
+.ExploreNow-FirstText {
+  font-size: 16px;
+}
+.ExploreNow-FirstTextSubText {
+  color: #666666;
+}
+.ExploreNow-Box_Button {
+  background: #fa7436;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 20px 30px;
+}
+.ThingsYouNeedContainer {
+  background: #f7f8fc;
+  margin-top: 6%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 6%;
+  flex-wrap: wrap;
+}
+
+.ThingsYouNeedMainTextSpan {
+  color: #fa7436;
+}
+.ThingsYouNeedMainText {
+  font-size: 45px;
+  position: relative;
+}
+.ThingsYouNeedSubText {
+  text-align: center;
+  margin-top: 3%;
+  line-height: 2;
+  color: #666666;
+}
+.ThingsYouNeedMainTextImg {
+  position: absolute;
+  right: 16%;
+  top: 130%;
+}
+.ThingsYouNeedSubContainer {
+  display: flex;
+  gap: 4%;
+  margin-top: 5%;
+  padding-bottom: 10%;
+}
+.ThingsYouNeedBoxContainer {
+  background: #ffffff;
+  width: 380px;
+  height: 230px;
+  display: flex;
+  box-shadow: 0px 4px 10px #6666661a;
+  text-align: justify;
+}
+.ThingsYouNeedSubBoxContainer {
+  padding: 8% 11%;
+}
+.ThingsYouNeedMainBoxImg {
+  width: 48px;
+  height: 48px;
+}
+.ThingsYouNeedMainBoxHeading {
+  padding-top: 15%;
+  font-size: 24px;
+}
+.ThingsYouNeedMainBoxSubHeading {
+  font-size: 14px;
+  padding-top: 5%;
+  line-height: 1.4;
+  color: #666666;
+}
+.ExecutiveDealsAndOffersContainer {
+  margin-top: 6%;
+  padding-top: 6%;
+  background: #fefcfb;
+}
+.ExecutiveDealsAndOffersMainText {
+  font-size: 48px;
+}
+.ExecutiveDealsAndOffersMainTextSpan {
+  color: #fa7436;
+}
+.ExecutiveDealsAndOffersSubBoxImgContainer {
+  border: none;
+  width: 270px;
+  height: 426px;
+  box-shadow: 0px 4px 20px #6666661a;
+  position: relative;
+}
+.ExecutiveDealsAndOffersSubBoxImgButton {
+  position: absolute;
+  z-index: 1;
+  left: 22%;
+  top: 50%;
+  border: none;
+  color: #ffffff;
+  padding: 5% 10%;
+  background: #fa7436;
+  font-size: 18px;
+  border-radius: 8px;
+}
+.ExecutiveDealsAndOffersMainSubText {
+  text-align: center;
+  margin-top: 6%;
+  line-height: 2;
+  color: #666666;
+  font-size: 18px;
+}
+.ExecutiveDealsAndOffersBoxContainer {
+  display: flex;
+  gap: 2%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+  flex-wrap: wrap;
+}
+.ExecutiveDealsAndOffersTextContainer {
+  display: flex;
+  justify-content: center;
+}
+.ExecutiveDealsAndOffersSubBoxFirxtTextContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3% 5%;
+}
+.ExecutiveDealsAndOffersSubBoxFirxtTextStarContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.ExecutiveDealsAndOffersSubBoxSecondTextContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3% 5%;
+}
+.ExecutiveDealsAndOffersSubBoxSecondTextLocationContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.ExecutiveDealsAndOffersSubBoxSecondSecondTextContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.ExecutiveDealsAndOffersSubBoxFirxtText {
+  font-size: 24px;
+}
+.ExecutiveDealsAndOffersSubBoxFirxtTextStarText {
+  color: #666666;
+  font-size: 16px;
+}
+.ExecutiveDealsAndOffersSubBoxSecondTextLocationText {
+  font-size: 16px;
+  color: #666666;
+}
+.ExecutiveDealsAndOffersSubBoxSecondSecondcutOutText {
+  font-size: 16px;
+  color: #666666;
+}
+.ExecutiveDealsAndOffersSubBoxSecondSecondText {
+  font-size: 16px;
+  color: #fa7436;
+  background: #ffe7db;
+  padding: 4px;
+  width: 52px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+.ExecutiveDealsAndOffersButtonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6%;
+  gap: 2%;
+  margin-bottom: 10%;
+}
+.BestVacationPlanMainTextContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+.BestVacationPLanMainTextSubContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.ExecutiveDealsAndOffersMainTextImg {
+  position: absolute;
+  left: 110%;
+}
+
+.BestVacationPlanSubBoxImgContainer {
+  border: none;
+  padding-bottom: 3%;
+  box-shadow: 0px 4px 40px #6666661a;
+  position: relative;
+}
+.BestVacationPlanSubBoxSecondSecondText {
+  font-size: 24px;
+  color: #fa7436;
+}
+.BestVacationPlanBoxOuterContainer {
+  display: flex;
+  gap: 2%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+  flex-wrap: wrap;
+  margin-bottom: 5%;
+}
+.BestVacationPlanButtonContainer {
+  display: flex;
+  justify-content: end;
+  margin-right: 10%;
+}
+.PeopleWhatSayContainer {
+  background: #f7f8fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  flex-wrap: wrap;
+  padding-bottom: 10%;
+}
+.PeopleWhatSayMainText {
+  font-size: 48px;
+}
+.PeopleWhatSayMainTextSpan {
+  color: #fa7436;
+}
+.PeopleWhatSayMainSubText {
+  color: #666666;
+  font-size: 16px;
+  line-height: 2;
+  padding-top: 8%;
+}
+.PeopleWhatSayMainTextContainer {
+  text-align: justify;
+  padding-top: 10%;
+}
+.PeopleWhatSayMainButtonContainer {
+  display: flex;
+  gap: 10%;
+  margin-top: 8%;
+}
+.PeopleWhatSayBoxContainer {
+  width: 450px;
+  height: 200px;
+  position: relative;
+  z-index: 1;
+}
+.PeopleWhatSaySecondBoxContainer {
+  width: 450px;
+  height: 200px;
+  position: relative;
+}
+.PeopleWhatSaySecondBoxSubContainer {
+  position: absolute;
+  width: 450px;
+  height: 200px;
+
+  top: 75%;
+  left: 10%;
+  box-shadow: 0px 4px 40px #6666661a;
+  background: #f7f8fc;
+}
+.PeopleWhatSayBoxSubContainer {
+  position: absolute;
+  top: 38%;
+  width: 450px;
+  height: 200px;
+  box-shadow: 0px 4px 40px #6666661a;
+  z-index: 1;
+  background: #ffffff;
+}
+.PeopleWhatSayImgContainer {
+  position: relative;
+}
+.PeopleWhatSayImg {
+  position: absolute;
+  right: 95%;
+  bottom: 88%;
+}
+.PeopleWhatTxtContainer {
+  margin: 5% 4%;
+}
+.PeopleWhatSayBoxParaTxt {
+  font-size: 16px;
+}
+.PeopleWhatSayBoxNameTxt {
+  font-size: 18px;
+  padding-top: 5%;
+}
+.PeopleWhatSayBoxCountryNameTxt {
+  font-size: 14px;
+}
+.PeopleWhatSaySecondBoxNameTxt {
+  font-size: 18px;
+  margin-top: 9%;
+  color: #666666;
+}
+.PeopleWhatSaySecondBoxCountryNameTxt {
+  color: #666666;
+  font-size: 14px;
+}
+.GetUpdateContainer {
+  background: #fefcfb;
+}
+.GetUpdateTxtContainer {
+  display: flex;
+  justify-content: center;
+  padding-top: 10%;
+}
+.GetUpdateMainTxt {
+  font-size: 48px;
+}
+.GetUpdateMainTxtSpan {
+  color: #fa7436;
+}
+.GetUpdateCardContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 8%;
+  gap: 2%;
+  flex-wrap: wrap;
+}
+.GetUpdateSliderContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  margin-bottom: 6%;
+}
+.SubcribeContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6%;
+}
+.FooterLeftMainTxtContainer {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.FooterLeftMainTxt {
+  font-size: 24px;
+}
+.FooterLeftSubTxt {
+  font-size: 16px;
+  color: #666666;
+  line-height: 2;
+  margin-top: 1%;
+}
+.FooterLeftSocailMedia {
+  margin-top: 1%;
+}
+.FooterRightCompany {
+  font-size: 18px;
+}
+.FooterRightCompany1 {
+  font-size: 18px;
+  color: #666666;
+}
+.FooterContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 1% 10%;
+}
+.FooterRightContainer {
+  display: flex;
+  gap: 110px;
+}
+.FooterRightCompanyContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
